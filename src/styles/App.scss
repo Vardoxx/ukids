@@ -1,0 +1,21 @@
+.abacus {
+	max-width: 1000px;
+	display: flex;
+	&__column {
+		position: relative;
+
+		&__stone-top {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 21.5%;
+			cursor: pointer;
+		}
+		&__stone-bottom {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			cursor: pointer;
+		}
+	}
+}
